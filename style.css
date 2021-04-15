@@ -108,6 +108,11 @@ body {
     text-align: left;
 }
 
+.carousel-caption {
+    top: 45%;
+    bottom: auto;
+}
+
 @keyframes slide {
     0% {
         opacity: 0;
