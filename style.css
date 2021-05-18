@@ -118,6 +118,29 @@ body {
     bottom: auto;
 }
 
+.bg {
+    height: auto;
+}
+
+.carousel-item {
+    height: 100vh;
+    max-width: 100%;
+    width: 100%;
+}
+
+.caption-text {
+    text-decoration: bold;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.credits {
+    color: grey;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+}
+
 @keyframes slide {
     0% {
         opacity: 0;
@@ -141,5 +164,16 @@ body {
     }
     .align-text {
         text-align: center;
+    }
+
+    .carousel-caption {
+        top: 40%;
+        left: 20%;
+        bottom: auto;
+        right: 20%;
+    }
+
+    .caption-text {
+        font-size: 18px;
     }
 }
